@@ -2,7 +2,7 @@ import { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar'
 import Header from './components/Header'
-
+import Ads from './components/Advertisements'
 
 function App() {
 
@@ -10,6 +10,7 @@ function App() {
     <>
       <Navbar />
       <Header />
+      <Ads />
     </>
   )
 }
