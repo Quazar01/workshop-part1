@@ -1,5 +1,22 @@
 .adCard {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
   grid-gap: 10px;
+}
+
+@media (min-width: 1200px) {
+  .adCard {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .adCard {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
+  .adCard {
+    grid-template-columns: 1fr;
+  }
 }
